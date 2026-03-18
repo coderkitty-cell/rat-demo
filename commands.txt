@@ -3,3 +3,4 @@ dir
 systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
 ver
 dir
+readfile C:\Users\Public\Documents\test.txt
