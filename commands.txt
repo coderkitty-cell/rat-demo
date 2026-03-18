@@ -3,4 +3,4 @@ dir
 systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
 ver
 dir
-readfile C:\Windows\System32\drivers\etc\hosts
+readfile C:\Users\Public\Documents\test.txt
