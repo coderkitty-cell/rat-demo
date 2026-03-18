@@ -2,3 +2,15 @@
 
 [CMD] hostname
 DESKTOP-7VVJJQ9
+
+[CMD] dir C:\Users
+ Volume in drive C is Windows
+ Volume Serial Number is C444-EF9B
+
+ Directory of C:\Users
+
+18/03/2026  06:32 pm    <DIR>          .
+18/03/2026  06:15 pm    <DIR>          Public
+18/03/2026  09:29 pm    <DIR>          Usman
+               0 File(s)              0 bytes
+               3 Dir(s)     699,457,536 bytes free
