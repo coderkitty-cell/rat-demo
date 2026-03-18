@@ -18,3 +18,6 @@ OS: Windows-10-10.0.26200-SP0
 Hostname: DESKTOP-7VVJJQ9
 [CMD] whoami
 desktop-7vvjjq9\usman
+
+[CMD] dir
+CMD ERROR: Command 'cmd /c dir' returned non-zero exit status 1.
