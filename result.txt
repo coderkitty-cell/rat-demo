@@ -1,1 +1,4 @@
 
+
+[CMD] hostname
+DESKTOP-7VVJJQ9
