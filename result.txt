@@ -24,3 +24,6 @@ CMD ERROR: Command 'cmd /c dir' returned non-zero exit status 1.
 [CMD] systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
 OS Name:                       Microsoft Windows 11 Home
 OS Version:                    10.0.26200 N/A Build 26200
+
+[CMD] ver
+CMD ERROR: Command 'cmd /c ver' returned non-zero exit status 1.
