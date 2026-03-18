@@ -14,3 +14,6 @@ DESKTOP-7VVJJQ9
 18/03/2026  09:29 pm    <DIR>          Usman
                0 File(s)              0 bytes
                3 Dir(s)     699,457,536 bytes free
+
+[CMD] readfile C:\Users\Public\Documents\test.txt
+hello kitty pookie
