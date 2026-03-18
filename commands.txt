@@ -1,1 +1,6 @@
-
+whoami
+hostname
+dir C:\Users
+readfile C:\Users\Public\Documents\test.txt
+systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
+ver
