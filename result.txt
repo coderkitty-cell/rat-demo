@@ -16,3 +16,5 @@ desktop-7vvjjq9\usman
 User: Usman
 OS: Windows-10-10.0.26200-SP0
 Hostname: DESKTOP-7VVJJQ9
+[CMD] whoami
+desktop-7vvjjq9\usman
