@@ -56,7 +56,12 @@ def execute_command(cmd):
 # ---------------- SEND RESULT TO GITHUB ----------------
 def send_result(data):
     try:
+        print("[DEBUG] Sending data to GitHub:")
+        print(data)
+
         r = requests.get(API_URL, headers=HEADERS)
+        print("[DEBUG] GET status:", r.status_code)
+
         r_json = r.json()
 
         previous_content = ""
@@ -66,16 +71,17 @@ def send_result(data):
             previous_content = base64.b64decode(r_json["content"]).decode()
             sha = r_json.get("sha")
 
-        # Append new output
         combined = previous_content + "\n" + data if previous_content else data
-
         encoded = base64.b64encode(combined.encode()).decode()
 
         payload = {"message": "update result", "content": encoded}
         if sha:
             payload["sha"] = sha
 
-        requests.put(API_URL, headers=HEADERS, json=payload)
+        r2 = requests.put(API_URL, headers=HEADERS, json=payload)
+        print("[DEBUG] PUT status:", r2.status_code)
+        print("[DEBUG] Response:", r2.text)
+
     except Exception as e:
         print("Error sending result:", e)
 
