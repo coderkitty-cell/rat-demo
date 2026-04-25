@@ -1,1 +1,1 @@
-
+DEPLOY_PAYLOAD: persist_registry.exe
